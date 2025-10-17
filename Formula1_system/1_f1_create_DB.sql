@@ -1,0 +1,5 @@
+DROP DATABASE IF EXISTS f1_system;
+
+CREATE DATABASE f1_system;
+
+USE f1_system;
