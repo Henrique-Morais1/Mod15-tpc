@@ -19,4 +19,6 @@ VALUES('Silverstone Circuit', 'Silverstone', 'Reino Unido', 5.89);
 
 INSERT INTO circuitos (nome, cidade, pais, distancia_km)
 VALUES('Suzuka Circuit', 'Suzuka', 'Japão', 5.81);
+
+
 SELECT * FROM circuitos;

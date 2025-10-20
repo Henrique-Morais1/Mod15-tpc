@@ -9,7 +9,7 @@ CREATE TABLE pilotos (
     nacionalidade VARCHAR(50) NOT NULL,
     data_de_nascimento DATE NOT NULL,
     numero_de_campeonatos_ganhos INT NOT NULL,
-    PRIMARY KEY(id)
+    PRIMARY KEY(id),
     FOREIGN KEY (id_equipe) REFERENCES equipas(id)
 );
 
