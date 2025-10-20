@@ -21,3 +21,5 @@ VALUES(2, 'Max Verstappen', 'Países Baixos', '1997-09-30', 2);
 
 INSERT INTO pilotos (id_equipe, nome, nacionalidade, data_de_nascimento, numero_de_campeonatos_ganhos)
 VALUES(3, 'Charles Leclerc', 'Mónaco', '1997-10-16', 0);
+
+SELECT * FROM pilotos;
