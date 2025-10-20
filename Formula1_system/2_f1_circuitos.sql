@@ -10,3 +10,13 @@ CREATE TABLE circuitos (
     distancia_km DECIMAL(6.2) NOT NULL,
     PRIMARY KEY(id)
 );
+
+INSERT INTO circuitos (nome, cidade, pais, distancia_km)
+VALUES('Circuit de Monaco', 'Monte Carlo', 'Mónaco', 3.34);
+
+INSERT INTO circuitos (nome, cidade, pais, distancia_km)
+VALUES('Silverstone Circuit', 'Silverstone', 'Reino Unido', 5.89);
+
+INSERT INTO circuitos (nome, cidade, pais, distancia_km)
+VALUES('Suzuka Circuit', 'Suzuka', 'Japão', 5.81);
+SELECT * FROM circuitos;
