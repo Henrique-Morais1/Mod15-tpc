@@ -8,9 +8,15 @@ CREATE TABLE pilotos (
     nome VARCHAR(50) NOT NULL,
     nacionalidade VARCHAR(50) NOT NULL,
     data_de_nascimento DATE NOT NULL,
+<<<<<<< HEAD
     numero_de_campeonatos_ganhos UNSIGNED INT NOT NULL,
     PRIMARY KEY(id),
     FOREIGN KEY (id_equipa) REFERENCES equipas(id)
+=======
+    numero_de_campeonatos_ganhos INT NOT NULL,
+    PRIMARY KEY(id),
+    FOREIGN KEY (id_equipe) REFERENCES equipas(id)
+>>>>>>> a9b98e2b441c77f00335694641714ef705f48dd3
 );
 
 INSERT INTO pilotos (id_equipe, nome, nacionalidade, data_de_nascimento, numero_de_campeonatos_ganhos)

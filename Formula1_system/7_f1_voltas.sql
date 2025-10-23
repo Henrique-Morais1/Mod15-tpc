@@ -15,6 +15,10 @@ CREATE TABLE voltas (
     FOREIGN KEY (id_carro) REFERENCES carros(id)
 );
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> a9b98e2b441c77f00335694641714ef705f48dd3
 INSERT INTO voltas (id_corrida, id_piloto, id_carro, tempo_da_volta, boxe)
 VALUES(1, 1, 1, "1:12:34", 1);
 
